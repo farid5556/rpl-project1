@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Card = ({ api }) => {
     return (
-        <div className='grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-3 px-4'>
+        <div className='grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-3 px-10'>
             {api.data.map((anime) => {
                 return (
                     <Link href={`/${anime.mal_id}`} className="text-color-primary 
