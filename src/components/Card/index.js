@@ -13,7 +13,7 @@ const Card = ({ api }) => {
                         width={350} 
                         height={350} 
                         className="w-full max-h-64 object-cover" />
-                        <h3 className="p-4 md:text-lg text-md">{anime.title}</h3>
+                        <h3 className="font-bold p-4 md:text-lg text-md">{anime.title}</h3>
                     </Link>
                     )
                 })}
